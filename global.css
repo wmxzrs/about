@@ -1,0 +1,32 @@
+/* global configuration */
+@import url('./layout.css');
+@import url('./component.css');
+@import url("http://at.alicdn.com/t/font_2635760_vlbxczhu8p.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: grey;
+}
+ul li,p,h2 {
+    list-style: none;
+    text-align: center;
+    margin: 3em auto;
+}
+.container,.nav-bar,.content-area {
+    padding: 3em;
+    
+}
+.content-area ul li {
+    outline: 1px solid grey;
+    padding: 3em;
+    box-shadow: 0 0 3px 3px grey ;
+}
+
+:is(div) ul li {
+    border-radius: 3px;
+    background-color: purple;
+}
