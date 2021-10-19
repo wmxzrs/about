@@ -1,3 +1,4 @@
+/* for mobile devices */
 @media only screen and (max-width: 800px) {
     * {
         margin: 0;
@@ -9,13 +10,36 @@
     body {
         
         background-color: black;
-        color: white;
+        color: highlight;
     }
     #nav-bar ul {
         list-style: none;
         display: inline;
         text-align: center;
         
+    }
+    .nav-bar ul li {
+        transition: all 0.3s ease-out;
+        width:50vw;
+        
+    }
+    p {
+        font-size: var(--m-article-size);
+    }
+    .nav-bar ul li:hover {
+        color: black;
+        background-color: purple;
+
+    }
+    #nav-bar+hr {
+        width: 50vw;
+        opacity: 0.6;
+        margin: 0 auto;
+    }
+    .content-area ul li {
+        outline: 1px solid grey;
+        padding: 3em;
+        box-shadow: 0 0 3px 3px grey;
     }
     
 }

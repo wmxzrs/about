@@ -10,6 +10,10 @@
     --font-en: 'Ubuntu', sans-serif;
     --font-zh: 'Helvetica Neue',sans-serif;
     --font-mix: 'Ubuntu','Helvetica Neue',sans-serif;
+    --d-title-size: 1.5em;
+    --d-article-size: 0.8em;
+    --m-article-size: 0.7em;
+    --m-title-size: 14px;
 }
 .classfont-en {
     font-family: var(--font-en);
@@ -36,13 +40,8 @@ ul li,p,h2 {
     padding: 3em;
     
 }
-.content-area ul li {
-    outline: 1px solid grey;
-    padding: 3em;
-    box-shadow: 0 0 3px 3px grey ;
-}
-
 :is(div) ul li {
     border-radius: 3px;
     
 }
+a {text-decoration: none}
