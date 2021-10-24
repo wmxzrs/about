@@ -82,7 +82,7 @@
 }
 @media screen and (max-width:600px) {
     .content {
-        background: url(https://cdn.jsdelivr.net/gh/wmxzrs/img/img/tokyo_ghouled1.png) no-repeat center;
+        background: url('https://cdn.jsdelivr.net/gh/wmxzrs/img/img/photo_2020-07-31_01-51-41 (2).jpg') no-repeat center;
 
     }
     .login-content {
