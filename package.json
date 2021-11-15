@@ -18,22 +18,27 @@
   },
   "homepage": "https://github.com/wmxzrs/about#readme",
   "dependencies": {
+    "ansicolors": "^0.3.2",
+    "builtins": "^0.0.7",
     "create-react-app": "^4.0.3",
+    "express": "~4.17.1",
     "gitbook-cli": "^2.3.2",
     "npm": "^6.14.15",
     "parcel": "^2.0.1",
-    "rimraf": "^3.0.2",
-    "yarn": "^1.22.17",
-    "ansicolors": "^0.3.2",
-    "text-table": "^0.2.0",
-    "builtins": "^0.0.7",
-    "express": "~4.17.1",
-    "path": "~0.12.7",
+    "about": "^1.0.0",
+    "path": "^0.12.7",
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
+    "rimraf": "^3.0.2",
+    "text-table": "^0.2.0",
     "ts-loader": "~7.0.1",
-    "typescript": "~3.8.3",
-    "webpack": "~4.42.1",
-    "webpack-cli": "~3.3.11"
-  }
+    "typescript": "^3.8.3",
+    "webpack-cli": "~3.3.11",
+    "yarn": "^1.22.17",
+    "webpack": "^4.44.2"
+  },
+  "peerDependencies": {
+    "typescript": "^2.8.0"
+  },
+  "optionalDependencies": {}
 }
