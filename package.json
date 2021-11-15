@@ -4,7 +4,8 @@
   "description": "cwd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "node_modules/.bin/parcel.cmd"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
     "npm": "^6.14.15",
     "parcel": "^2.0.1",
     "rimraf": "^3.0.2",
-    "yarn": "^1.22.17"
+    "yarn": "^1.22.17",
+    "ansicolors": "^0.3.2",
+    "text-table": "^0.2.0",
+    "builtins": "^0.0.7"
   }
 }
